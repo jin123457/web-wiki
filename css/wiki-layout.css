@@ -60,7 +60,7 @@ h4 {
 section > p,
 article > p {
     line-height: 24px;
-    text-indent: 8px;
+    text-indent: -1px;
 }
 
 section,
