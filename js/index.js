@@ -50,5 +50,6 @@ const addComment = () => {
         commentList.appendChild(commentItem);
 
         input.value = ''; // 입력창 초기화
+        alert('댓글이 등록되었습니다');
     }
 };
