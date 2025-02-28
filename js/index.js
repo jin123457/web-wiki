@@ -20,6 +20,11 @@ const addComment = () => {
     const input = document.getElementById('commentInput');
     const commentList = document.getElementById('commentList');
 
+    if (!input.value) {
+        alert('입력을 하신 후 등록 버튼을 눌러주세요!');
+        return input.focus();
+    }
+
     if (input.value.trim() !== '') {
         // 댓글 아이템 생성
         const commentItem = document.createElement('div');
