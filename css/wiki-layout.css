@@ -230,6 +230,9 @@ div.comment-author img {
 div.comment-content {
     line-height: 20px;
 }
+.pt-30 {
+    padding-top: 30px;
+}
 :root {
     --page-padding: 48px;
     --page-subtitle-margin-y: 32px;
